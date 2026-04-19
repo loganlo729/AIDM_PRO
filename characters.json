@@ -1,0 +1,25 @@
+{
+    "character_name": "John",
+    "player_name": "Logan",
+    "race": "Druid",
+    "class": "Fighter",
+    "level": 12,
+    "background": "Thief",
+    "alignment": "Neutral",
+    "experience_points": 3,
+    "ability_scores": {
+        "strength": 5,
+        "dexterity": 3,
+        "constitution": 2,
+        "intelligence": 6,
+        "wisdom": 3,
+        "charisma": 2
+    },
+    "combat": {
+        "max_hp": 59,
+        "current_hp": 59,
+        "armor_class": 2,
+        "speed": 4,
+        "proficiency_bonus": 4
+    }
+}
