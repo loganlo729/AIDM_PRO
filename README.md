@@ -15,6 +15,17 @@ AI Dungeon Master Pro is a modular Python-based RPG that uses AI-driven narratio
 - Memory of recent actions for continuity
 - Dynamic NPC generation
 
+## AI Model Setup
+
+This project uses a local LLM via Ollama for narration generation.
+
+### Setup Instructions
+
+1. Install Ollama: https://ollama.com  
+2. Pull and run a model:
+   ```bash
+   ollama run llama3
+
 ## How to Run
 
 1. Make sure you have Python 3 installed  
