@@ -1,5 +1,9 @@
 import json
 
+from prompts import build_narration_prompt
+from save_load import load_game
+from game_loop import game_loop
+
 def ask_int(prompt):
     while True:
         try:
@@ -45,9 +49,21 @@ def save_character(character, filename="characters.json"):
         json.dump(character, file, indent=4)
 
 def main():
+    choice = input("Load previous game? (y/n): ")
+
+    # Load game
+    if choice.lower() == "y":
+        state = load_game()
+
+        if state:
+            game_loop(state["character"], loaded_state=state)
+            return
+        else:
+            print("No save found. Starting new game.")
+
+    # New game
     character = create_character()
-    save_character(character)
-    print("\nCharacter saved to characters.json")
+    game_loop(character)
 
 if __name__ == "__main__":
     main()

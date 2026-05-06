@@ -1,10 +1,24 @@
-# Lab 14
+# AI Dungeon Master Pro
 
-## Project
-AI Dungeon Master Pro
+AI Dungeon Master Pro is a modular Python-based RPG that uses AI-driven narration, game state management, and interactive player input.
 
-## Use Case Diagram
-[Use Case](UseCase.png)
+## Features
 
-## Description
-In this version of the project, the user can create a character by entering character sheet information one field at a time. The program collects important character details such as name, class, race, level, and other related stats, then stores that information in `characters.json' so it can be used later in the project. So far, this is the only functionality that has been implemented.
+- Character creation and storage (JSON)
+- Turn-based game loop
+- AI-generated narration using prompt engineering
+- Scenario detection (combat, dialogue, movement, exploration)
+- Dice-based mechanics for combat and skill checks
+- Game state tracking (HP, location, quests, history)
+- Retrieval-Augmented Generation (RAG) for contextual responses
+- Save and load system for persistent gameplay
+- Memory of recent actions for continuity
+- Dynamic NPC generation
+
+## How to Run
+
+1. Make sure you have Python 3 installed  
+2. Run the program:
+
+```bash
+python main.py

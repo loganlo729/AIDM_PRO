@@ -1,0 +1,42 @@
+{
+    "character": {
+        "character_name": "Davey",
+        "player_name": "Dave",
+        "race": "Druid",
+        "class": "Mage",
+        "level": 1,
+        "background": "Amnesiac",
+        "alignment": "Good",
+        "experience_points": 2,
+        "ability_scores": {
+            "strength": 8,
+            "dexterity": 6,
+            "constitution": 8,
+            "intelligence": 6,
+            "wisdom": 7,
+            "charisma": 6
+        },
+        "combat": {
+            "max_hp": 10,
+            "current_hp": 10,
+            "armor_class": 7,
+            "speed": 7,
+            "proficiency_bonus": 2
+        }
+    },
+    "enemy_hp": 10,
+    "player_hp": 10,
+    "location": "tavern",
+    "quest_progress": [],
+    "history": [
+        {
+            "action": "Explore",
+            "result": "As you venture deeper into the unknown, the air grows thick with an eerie energy. You, Davey the Mage, push forward, your eyes scanning the surroundings for any sign of hidden dangers. With a deep breath, you decide to explore further, and your trusty spellbook at the ready. The dice roll reveals a result of 2... Not exactly what you had hoped for.\n\nRolling: *rolls* Ah, it seems that your exploration has hit a snag! A sudden gust of wind sweeps through the area, extinguishing the faint luminescence that was guiding your way. You stumble forward, trying to regain your footing in the darkness. The air is heavy with an otherworldly presence, and you can't shake the feeling that unseen eyes are watching your every move..."
+        },
+        {
+            "action": "Look for pursuers",
+            "result": "As you begin to search for any potential pursuers, your gaze scans the surrounding area, your mage senses on high alert. With a successful roll of 19, you notice a faint trail of disturbed foliage leading off in the direction you came from. The path is well-hidden, but your keen eyes pick up on the subtle signs of someone - or something - having recently passed through. You can't help but wonder what kind of creature or foe might be tracking you, and whether they're friend or foe. With this new information, you must decide how to proceed: will you investigate further, or continue on your original path? The choice is yours."
+        }
+    ],
+    "last_output": "As you begin to search for any potential pursuers, your gaze scans the surrounding area, your mage senses on high alert. With a successful roll of 19, you notice a faint trail of disturbed foliage leading off in the direction you came from. The path is well-hidden, but your keen eyes pick up on the subtle signs of someone - or something - having recently passed through. You can't help but wonder what kind of creature or foe might be tracking you, and whether they're friend or foe. With this new information, you must decide how to proceed: will you investigate further, or continue on your original path? The choice is yours."
+}
